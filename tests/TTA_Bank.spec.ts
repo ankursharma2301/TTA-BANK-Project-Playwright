@@ -36,7 +36,7 @@ test('Verify that the Balance reduced on Transfer in TTA Bank', async ({ page })
     // Navigate to Dashboard and Validate the Balance is reduced to $45,000.00
     await page.getByRole("button", { name: 'Dashboard' }).click();
     await expect(page.getByRole("heading", { name: '$45,000.00' })).toBeVisible();
-    await page.pause();
+    //await page.pause();
 
     //LOgout from the Appilcation
     await page.getByRole("button", { name: 'Sign Out' }).click();
