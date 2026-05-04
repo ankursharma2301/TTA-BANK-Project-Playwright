@@ -17,3 +17,13 @@ npx playwright test
 ```
 
 After the tests run, the custom report will be generated in the `tta-report` directory. You can open `tta-report/index.html` to view the results along with the attached screenshots and videos.
+
+## Sample Test Assets
+
+Here is a sample screenshot captured during the test run:
+
+![Sample Screenshot](./assets/sample_screenshot.png)
+
+And a sample test execution video:
+
+[Watch Sample Video](./assets/sample_video.webm)
